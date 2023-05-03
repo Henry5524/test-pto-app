@@ -1,0 +1,15 @@
+@import "../variables/fonts.scss";
+
+p,
+span,
+div,
+body,
+textarea,
+input,
+* {
+  font-family: $fontFamily;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
